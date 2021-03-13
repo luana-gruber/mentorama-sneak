@@ -11,16 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 
-    <style>
-        .corra {
-            background-image: url(./img/corra.png);
-        }
-    </style>
-
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <h1>SNEAK.</h1>
         <nav>
             <ul>
@@ -32,7 +26,6 @@
             </ul>
         </nav>
         <div>
-            <img src="./img/lupa.png" />
             <input type="text" placeholder="Procurar" />
             <div>
                 <img src="./img/carrinho.png" />
@@ -42,18 +35,18 @@
 
     <main>
         <section>
-            <div>
-                <h2>SNEAK. <br /> Ultra light</h2>
+            <div class="main-div-inicial">
+                <h2 class="main-h2-inicial">SNEAK. <br /> Ultra Light</h2>
                 <p>Os tênis SNEAK foram criados especificamente para treinos em circuito, sejam aulas fitness online em
                     casa ou sua própria rotina de treinos diários.</p>
-                <button>Adicionar ao Carrinho</button>
+                <button class="botão">Adicionar ao Carrinho</button>
             </div>
-            <div>
+            <div class="main-div-inicial">
                 <img src="./img/tenis.png" />
             </div>
         </section>
-        <aside>
-            <h2>Corrida - Masculino</h2>
+        <aside class="main-aside-inicial">
+            <h2>CORRIDA - MASCULINO</h2>
             <ul>
                 <li><img src="./img/branco.png" alt="Branco" /></li>
                 <li><img src="./img/dourado.png" alt="Dourado" /></li>
@@ -62,84 +55,87 @@
             </ul>
             <img src="./img/tenis-branco.png" alt="Tênis Branco" />
             <span>Branco</span>
-            <button>Adicionar ao Carrinho</button>
+            <button class="botão">Adicionar ao Carrinho</button>
         </aside>
         <section>
-            <div>
+            <div class="main-div-textos">
                 <h2>Leveza e Agilidade</h2>
                 <p>A construção ligeira de espuma e malha não te torna lento ao fazer os exercícios de agilidade. Um
                     «burpee break» na parte frontal do pé torna-o suficiente flexível para fazer a prancha ou o Mountain
                     Climber. </p>
             </div>
-            <div>
+            <div class="main-div-textos">
                 <img src="./img/leveza-e-agilidade.png" alt="Tênis Hylo">
             </div>
         </section>
         <section>
-            <div>
-                <img src="./img/amortecimento-imediato.png" alt="Amortecimento Imediato" />
-                <img src="./img/amortecimento-imediato2.png" alt="Amortecimento Imediato" />
+            <div class="main-div-textos">
+                <img class="main-div-img" src="./img/amortecimento-imediato.png" alt="Amortecimento Imediato" />
             </div>
-            <div>
+            <div class="main-div-textos">
+                <h2>Amortecimento Imediato</h2>
                 <p>A espuma grossa sob o pé absorve o impacto e retorna a energia ao correr com joelhos altos e ao fazer
                     saltos com caixa. O suporte de arco na parte média do pé garante conforto durante o treino inteiro.
                 </p>
             </div>
         </section>
         <section>
-            <div>
+            <div class="main-div-textos">
                 <h2>Sensação de Estabilização</h2>
                 <p>O outrigger — a projeção lateral — estabiliza o pé ao fazer os movimentos laterais, como por exemplo
                     o Skater Squat.</p>
             </div>
-            <div>
+            <div class="main-div-textos">
                 <img src="./img/sensação-de-estabilização.png" alt="Sensação de Estabilização">
             </div>
         </section>
-        <aside class="corra">
+        <aside class="main-aside-corra">
 
             <h2><img src="./img/arrow.png" /> CORRA <br /> COMO SE O MUNDO <br /> DEPENDESSE DE VOCÊ </h2>
 
         </aside>
         <section>
-            <div>
-                <img src="./img/mapa.png" alt="Nosso endereço">
+            <div class="main-div-final">
+                <img class="main-div-img" src="./img/mapa.png" alt="Nosso endereço">
             </div>
-            <div>
+            <div class="main-div-final">
                 <h3>Contacte-nos</h3>
-                <form action="">
-                    <input type="text" placeholder="Nome" />
-                    <input type="email" placeholder="E-mail" />
-                    <textarea placeholder="Comentários"></textarea>
-                    <label>
-                        <input type="checkbox" value="concordo" />
-                        Concordo com a politíca de privacidade.
-                    </label>
-                    <button>Enviar</button>
+                <form action="" class="main-div-final">
+                    <ul>
+                        <li><input type="text" placeholder="Nome" /></li>
+                        <li><input type="email" placeholder="E-mail" /></li>
+                        <li><textarea placeholder="Comentários"></textarea></li>
+
+                        <label class="main-div-final">
+                            <input type="checkbox" value="concordo" />
+                            <span>Concordo com a politíca de privacidade.</span>
+                        </label>
+                    </ul>
+                    <button class="botão">Enviar</button>
                 </form>
             </div>
         </section>
     </main>
 
     <footer>
-        <h3>SNEAK.</h3>
-        <div>
+        <h3 class="footer-div">SNEAK.</h3>
+        <div class="footer-div">
             <ul>
-                <li>Sobre Sneak</li>
+                <h3>Sobre Sneak</h3>
                 <li><a href="#">Novidades</a></li>
                 <li><a href="#">Carreira</a></li>
                 <li><a href="#">Para Investidores</a></li>
                 <li><a href="#">Cuidado com o meio ambiente</a></li>
             </ul>
             <ul>
-                <li>Ajuda</li>
+                <h3>Ajuda</h3>
                 <li><a href="#">Status do Pedido</a></li>
                 <li><a href="#">Entregas e Frete</a></li>
                 <li><a href="#">Trocas de Devoluções</a></li>
                 <li><a href="#">Opções de Pagamento</a></li>
             </ul>
-            <ul>
-                <li>Redes Sociais</li>
+            <ul class="footer-div-redes">
+                <h3>Redes Sociais</h3>
                 <li><a href="instagram.com" target="_blank">
                         <img src="./img/instagram.png" alt="Instagram" />
                     </a></li>
