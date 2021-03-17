@@ -1,7 +1,7 @@
 *,
 *::after,
 *::before{
-    margin:2px;
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
@@ -11,94 +11,213 @@ ul{
 }
 
 body{
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;;
+    position: absolute;
+    font:20px 'Gilroy', sans-serif;
 }
 
 .header h1{
     display: inline-block;
     font-size: 20px;
+    margin-left: 80px;
     width: 30%;
 }
-.header nav, li, a{
+
+.header nav, ul, li, a{
     display: inline-block;
-    font-size: 20px;
-    margin-inline: 10px;
     text-decoration: none;
+    text-align: center;
+    margin-inline: 10px;
 }
 
 .header input{
-    display: inline-block;
     font-size: 20px;
     border-radius: 50px;
-    background:#F2F2F2;
     background-image: url("../img/lupa.png");
     background-repeat: no-repeat;
     background-position: left;
+    background-color:#F2F2F2;
     border: none;
     text-align: center;
 }
-.header div{
+.header img, div{
     display: inline-block;
-}
-
-.botão{
-    border-radius: 12px;
-    width: 230px;
-    height: 64px;
-
-}
-.main-div-inicial{
-    display: inline-block;
-    width: 48%;
-    text-align: justify ;
     vertical-align: middle;
-}
-
-.main-h2-inicial {
-    font-size: 104px;
-    color: #9f9f9f;
-}
-
-.main-aside-inicial {
-    width: 100%;
-    background-color: #F2F2F2;
     text-align: center;
 }
-.main-div-textos{
+
+.main-section-inicial{
     display: inline-block;
-    width: 49%;
-    vertical-align:top;
-    position: inherit;
+    text-align: center;
+}
+
+.main-section-inicial h2{
+    font-size: 104px;
+    color: #9F9F9F;
+}
+
+.main-section-inicial p{
+    width: 475px;
+    line-height: 28px;
+}
+
+.main-section-inicial div{
+    display: inline-block;
+    width: 44%;
+    text-align: justify;
+}
+
+.main-section-inicial button{
+    margin-top: 20%;
+    margin-bottom: 10%;
+    border-radius: 12px;
+    font-size: 20px;
+    width: 336px;
+    height: 84px;
+    background-color: white;
+}
+
+.main-aside-inicial{
+    background: #F3F3F3;
+    height: 767px;
+    width: 1440px;
+    text-align: center;
+    border-radius: 8px;
+    margin-left: 4%;
+}
+
+.main-aside-inicial h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.main-aside-inicial div, span{
+    display: block;
+    margin-bottom:50px;
+    margin-top: 50px;
+}
+
+.main-aside-inicial button{
+    border-radius: 12px;
+    font-size: 20px;
+    width: 336px;
+    height: 84px;
+}
+
+.main-section-textos{
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.main-section-textos div{
+    display: inline-block;
+    width: 47%;
+    text-align: center;
+}
+
+.main-section-textos h2{
+    font-size: 64px;
+    color: #9F9F9F;
+    text-align: left;
+}
+
+.main-section-textos p{
+    font-size: 20px;
+    line-height: 28px;
+    width: 581px;
+    text-align: justify;
 }
 .main-div-img{
     width: 95%;
 }
 .main-aside-corra{
     background-image: url("../img/corra.png");
+    width: 1600px;
     height: 500px;
+    margin-left: 4%;
+    margin-bottom: 40px;
     font-size: 50px;
     color: white;
 }
-.main-div-final {
+.main-section-final {
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    margin-left: 7%;
+}
+.main-section-final div, form{
     display: inline-block;
     width: 49%;
     vertical-align: top;
 }
 
-.footer-div li{
-    display:block;
+.main-section-final h3{
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: justify;
 }
 
-.footer-div ul{
+.main-section-final input, textarea{
+    font-size: 20px;
+    width: 517px;
+    height: 76px;
+    border-radius: 12px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.main-section-final button{
+    border-radius: 12px;
+    font-size: 20px;
+    width: 517px;
+    height: 84px;
+    margin-top: 50px;
+}
+
+#checkbox{
+    display: inline-block;
+    border-radius: 12px;
+    width: 28px;
+    height: 28px;
+}
+#span{
+    display: inline-block;
+    color: #969696;
+}
+
+.footer-final {
+    background-color: #F3F3F3;
+    margin-left: 4%;
+    margin-top: 60px;
+    width: 100%;
+}
+.footer-final h3{
     display:inline-block;
     vertical-align: top;
-    margin-left: 80px;
+    text-align: justify;
+    width: 336px;
 }
-.footer-div {
-    display:inline-block;
+.footer-final ul{
+    text-align: justify;
+    vertical-align: top;
 }
+
+.footer-final li{
+    display:block;
+    text-align: justify;
+}
+
+.footer-div-redes{
+    vertical-align: top;
+    text-align: center;
+}
+
+.footer-div-redes h3{
+    display:block;
+    text-align: justify;
+}
+
 .footer-div-redes li{
     display:inline-block;
-    width: 10%;
 }
