@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sneak.</title>
 
-<link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
@@ -18,10 +18,10 @@
         <nav>
             <ul>
                 <li><a href="#">Masculino</a></li>
-                <li><a href="#">Feminino</a></li>
-                <li><a href="#">Novidades</a></li>
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Coleções</a></li>
+                <li id="li-feminino"><a href="#">Feminino</a></li>
+                <li id="li-geral"><a href="#">Novidades</a></li>
+                <li id="li-geral"><a href="#">Ofertas</a></li>
+                <li id="li-geral"><a href="#">Coleções</a></li>
             </ul>
         </nav>
         <div>
@@ -60,29 +60,27 @@
         
         <section class="main-section-textos">
             <div>
-                <h2>Leveza e Agilidade</h2>
-                <p>A construção ligeira de espuma e malha não te torna lento ao fazer os exercícios de agilidade. Um
-                    «burpee break» na parte frontal do pé torna-o suficiente flexível para fazer a prancha ou o Mountain
-                    Climber. </p>
+                <h2>Leveza e agilidade</h2>
+                <p>A construção ligeira de espuma e malha do SNEAK proporcionam conforto e agilidade durante o exercício. Um “burpee break” na parte frontal do pé torna-o extremamente flexível para fazer prancha ou Mountain Climber.</p>
             </div>
             <div>
                 <img src="./img/leveza-e-agilidade.png" alt="Tênis Hylo">
             </div>
         </section>
         <section class="main-section-textos">
-            <div>
+            <div class="div-amortecimento">
                 <img class="main-div-img" src="./img/amortecimento-imediato.png" alt="Amortecimento Imediato" />
             </div>
             <div>
-                <h2>Amortecimento Imediato</h2>
-                <p>A espuma grossa sob o pé absorve o impacto e retorna a energia ao correr com joelhos altos e ao fazer
-                    saltos com caixa. O suporte de arco na parte média do pé garante conforto durante o treino inteiro.
+                <h2 class="textos-amortecimento">Amortecimento imediato</h2>
+                <p class="textos-amortecimento">A espuma grossa sob o pé absorve o impacto e retorna a energia ao correr com joelhos altos e ao 
+                    saltar. O suporte de arco na parte média do pé garante conforto durante todo treino.
                 </p>
             </div>
         </section>
         <section class="main-section-textos">
             <div>
-                <h2>Sensação de Estabilização</h2>
+                <h2>Sensação de estabilização</h2>
                 <p>O outrigger — a projeção lateral — estabiliza o pé ao fazer os movimentos laterais, como por exemplo
                     o Skater Squat.</p>
             </div>
@@ -96,19 +94,19 @@
 
         </aside>
         <section class="main-section-final">
-            <div>
+            <div class="div-mapa">
                 <img src="./img/mapa.png" alt="Nosso endereço">
             </div>
-            <div>
+            <div class="div-form">
                 <form action="">
-                    <h3>Contacte-nos</h3>
+                    <h3>Entre em contato</h3>
                     <ul>
                         <li><input type="text" placeholder="Nome" /></li>
                         <li><input type="email" placeholder="E-mail" /></li>
-                        <li><textarea placeholder="Comentários"></textarea></li>
+                        <li><textarea placeholder="Comentários" id="textarea"></textarea></li>
                         <label>
-                            <input  id="checkbox" type="checkbox" value="concordo"/>
-                            <span id ="span">Concordo com a politíca de privacidade.</span>
+                            <input id="checkbox" type="checkbox" value="concordo"/>
+                            <span>Concordo com a politíca de privacidade.</span>
                         </label>
                     </ul>
                     <button>Enviar</button>
@@ -119,23 +117,23 @@
 
     <footer>
         <div class="footer-final">
-            <h3>SNEAK.</h3>
+            <h3 id="footer-h3">SNEAK.</h3>
             <ul>
-                <h3>Sobre Sneak</h3>
+                <h3>SOBRE SNEAK</h3>
                 <li><a href="#">Novidades</a></li>
                 <li><a href="#">Carreira</a></li>
                 <li><a href="#">Para Investidores</a></li>
                 <li><a href="#">Cuidado com o meio ambiente</a></li>
             </ul>
             <ul>
-                <h3>Ajuda</h3>
+                <h3>AJUDA</h3>
                 <li><a href="#">Status do Pedido</a></li>
                 <li><a href="#">Entregas e Frete</a></li>
                 <li><a href="#">Trocas de Devoluções</a></li>
                 <li><a href="#">Opções de Pagamento</a></li>
             </ul>
             <ul class="footer-div-redes">
-                <h3>Redes Sociais</h3>
+                <h3>REDES SOCIAIS</h3>
                 <li><a href="instagram.com" target="_blank">
                         <img src="./img/instagram.png" alt="Instagram" />
                     </a></li>

@@ -19,152 +19,233 @@ body{
     display: inline-block;
     font-size: 20px;
     margin-left: 80px;
-    width: 30%;
+    margin-top: 32px;
+    margin-bottom:32px;
+    margin-right: 352px;
+    line-height: 28px;
 }
 
 .header nav, ul, li, a{
     display: inline-block;
     text-decoration: none;
-    text-align: center;
-    margin-inline: 10px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+#li-feminino{
+    margin-left:32px;
+}
+
+#li-geral{
+    margin-left:42px;
 }
 
 .header input{
+    height: 52px;
     font-size: 20px;
     border-radius: 50px;
+    line-height: 28px;
     background-image: url("../img/lupa.png");
     background-repeat: no-repeat;
     background-position: left;
     background-color:#F2F2F2;
     border: none;
     text-align: center;
+    margin-left: 128px;
+    margin-right: 24px;
 }
 .header img, div{
     display: inline-block;
     vertical-align: middle;
-    text-align: center;
 }
 
 .main-section-inicial{
     display: inline-block;
-    text-align: center;
+    margin-top: 91px;
+    margin-left: 80px;
 }
 
 .main-section-inicial h2{
-    font-size: 104px;
+    font-size:104px;
+    line-height: 104px;
     color: #9F9F9F;
+    margin-bottom: 24px;
 }
 
 .main-section-inicial p{
-    width: 475px;
+    width: 100%;
+    max-width: 475px;
     line-height: 28px;
 }
 
 .main-section-inicial div{
     display: inline-block;
-    width: 44%;
-    text-align: justify;
+    width: 49%;
+}
+.main-section-inicial img{
+    margin-bottom: 220px;
+    margin-left: -166.84px;
 }
 
 .main-section-inicial button{
-    margin-top: 20%;
-    margin-bottom: 10%;
+    margin-top: 108px;
+    margin-bottom: 262px;
     border-radius: 12px;
-    font-size: 20px;
+    font:20px 'Gilroy', sans-serif;
+    font-weight: 700;
+    line-height: 28px;
     width: 336px;
     height: 84px;
     background-color: white;
+    border: 2px solid #1F1F1F;
 }
 
 .main-aside-inicial{
     background: #F3F3F3;
-    height: 767px;
-    width: 1440px;
     text-align: center;
+    vertical-align: middle;
     border-radius: 8px;
-    margin-left: 4%;
+    margin-left: 80px;
+    width: 100%;
+    max-width: 1440px;
+    margin-bottom: 240px;
 }
 
 .main-aside-inicial h2{
     font-size: 40px;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    font-weight: 700;
+    padding-top: 64px;
 }
 
-.main-aside-inicial div, span{
+.main-aside-inicial li{
+    margin-bottom:32px;
+    margin-top: 64px;
+    margin-left: 20px;
+}
+
+.main-aside-inicial div{
     display: block;
-    margin-bottom:50px;
-    margin-top: 50px;
 }
 
+.main-aside-inicial span{
+    display: block;
+    margin-bottom:64px;
+    margin-top: 45.62px;;
+    font-weight: 700;
+    line-height: 28px;
+}
 .main-aside-inicial button{
     border-radius: 12px;
-    font-size: 20px;
+    font:20px 'Gilroy', sans-serif;
+    font-weight: 700;
     width: 336px;
     height: 84px;
+    border: 2px solid #1F1F1F;
+    margin-bottom: 64px;
 }
 
 .main-section-textos{
-    text-align: center;
-    margin-left: 5%;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-bottom: 160px;
+    width: 100%;
+    max-width: 1440px;
 }
 
 .main-section-textos div{
     display: inline-block;
-    width: 47%;
+    width: 49%;
     text-align: center;
+    vertical-align: top;
 }
 
 .main-section-textos h2{
     font-size: 64px;
+    font-weight: 700;
     color: #9F9F9F;
     text-align: left;
+    margin-bottom: 56px;
 }
 
 .main-section-textos p{
     font-size: 20px;
     line-height: 28px;
     width: 581px;
-    text-align: justify;
+    text-align: left;
+    margin-right: 155px;
 }
-.main-div-img{
-    width: 95%;
+.div-amortecimento{
+    width: 90%;
 }
+
+.textos-amortecimento{
+    margin-left: 155px;
+}
+
 .main-aside-corra{
     background-image: url("../img/corra.png");
     width: 1600px;
-    height: 500px;
-    margin-left: 4%;
-    margin-bottom: 40px;
-    font-size: 50px;
+    height: 720px;
+    margin-top: 200px;
+    font-size: 70px;
+    line-height: 104px;
     color: white;
 }
 .main-section-final {
-    background-color: #F3F3F3;
-    border-radius: 8px;
-    margin-left: 7%;
-}
-.main-section-final div, form{
-    display: inline-block;
-    width: 49%;
-    vertical-align: top;
+    margin-top: 200px;
+    margin-left: 80px;
 }
 
+.div-mapa {
+    display: inline-block;
+}
+
+.div-form {
+    display: inline-block;
+    vertical-align: center;
+    width: 38%;
+    position: absolute;
+}
+
+.main-section-final form{
+    background-color: #F3F3F3;
+    text-align: center;
+    padding-top:40px ;
+    padding-right: 48px;
+    padding-left: 48px;
+    border-radius: 0px 8px 8px 0px;
+}
 .main-section-final h3{
     font-size: 40px;
-    margin-bottom: 50px;
     text-align: justify;
+    margin-left: 38px;
+    margin-bottom: 40px;
 }
 
 .main-section-final input, textarea{
-    font-size: 20px;
-    width: 517px;
-    height: 76px;
+    font: 20px 'Gilroy', sans-serif;
+    line-height: 28px;
+    color: #969696;
+    font-weight: 500;
     border-radius: 12px;
     border: none;
-    margin-bottom: 20px;
+    padding:28px;
+    margin-bottom:24px;
+    width: 517px;
+    height: 76px;
+    display: block;
+}
+#textarea{
+    height: 260px;
+}
+.main-section-final label{
+    margin-right: 92px;
+    display: inline-block;
+    color:#969696;
+}
+#checkbox {
+    display: inline-block;
+    height: 28px;
+    width: 28px;
 }
 
 .main-section-final button{
@@ -172,40 +253,42 @@ body{
     font-size: 20px;
     width: 517px;
     height: 84px;
-    margin-top: 50px;
-}
-
-#checkbox{
-    display: inline-block;
-    border-radius: 12px;
-    width: 28px;
-    height: 28px;
-}
-#span{
-    display: inline-block;
-    color: #969696;
+    margin-top: 34px;
+    margin-bottom: 48px;
+    border: 2px solid #1F1F1F;
+    font: 20px 'Gilroy', sans-serif;
+    font-weight: 700;
 }
 
 .footer-final {
     background-color: #F3F3F3;
-    margin-left: 4%;
-    margin-top: 60px;
+    margin-top: 160px;
     width: 100%;
 }
 .footer-final h3{
+    margin-top: 56px;
+    margin-bottom: 18px;
     display:inline-block;
     vertical-align: top;
     text-align: justify;
-    width: 336px;
+    line-height: 28px;
+    font-weight: 500;
+
 }
+
+#footer-h3{
+    margin-right: 221px;
+    margin-left: 80px;
+}
+
 .footer-final ul{
     text-align: justify;
-    vertical-align: top;
+    width: 336px;
+    margin-bottom: 56px;
 }
 
 .footer-final li{
     display:block;
-    text-align: justify;
 }
 
 .footer-div-redes{
@@ -220,4 +303,5 @@ body{
 
 .footer-div-redes li{
     display:inline-block;
+    margin-right: 33.33px;
 }
