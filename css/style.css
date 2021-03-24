@@ -47,7 +47,7 @@ body{
     line-height: 28px;
     background-image: url("../img/lupa.png");
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: 5%;
     background-color:#F2F2F2;
     border: none;
     text-align: center;
@@ -299,9 +299,4 @@ body{
 .footer-div-redes h3{
     display:block;
     text-align: justify;
-}
-
-.footer-div-redes li{
-    display:inline-block;
-    margin-right: 33.33px;
 }
