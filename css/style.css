@@ -14,7 +14,7 @@ body{
     font:20px 'Gilroy', sans-serif;
 }
 
-.header {
+header{
     width: 1600px;
 }
 
@@ -37,7 +37,6 @@ body{
 }
 
 #li-geral{
-    display: inline-block;
     margin-left:42px;
 }
 
@@ -53,7 +52,6 @@ body{
     border: none;
     text-align: center;
     margin: 0px 24px 0px 128px;
-    display: inline-block;
 
 }
 
@@ -61,12 +59,11 @@ body{
     display: inline-block;
     vertical-align: middle;
 }
-
 .main-section-inicial{
     display: inline-block;
     margin-top: 91px;
     margin-left: 80px;
-    margin-right: 166.84px;
+
 }
 
 .main-section-inicial h2{
@@ -88,6 +85,7 @@ body{
 }
 .main-section-inicial img{
     margin-bottom: 200px;
+    margin-left: -90px;
 }
 
 .main-section-inicial button{
@@ -231,6 +229,7 @@ body{
 }
 #textarea{
     height: 260px;
+    margin-bottom: 33px;
 }
 .main-section-final label{
     margin-right: 92px;
@@ -238,7 +237,6 @@ body{
     color:#969696;
 }
 #checkbox {
-    margin-top: 32px;
     display: inline-block;
     height: 28px;
     width: 28px;
@@ -259,7 +257,7 @@ body{
 .footer-final {
     background-color: #F3F3F3;
     margin-top: 160px;
-    width: 100%;
+    width: 1600px;
 }
 .footer-final h3{
     margin-top: 56px;
@@ -269,11 +267,10 @@ body{
     text-align: justify;
     line-height: 28px;
     font-weight: 500;
-
 }
 
 #footer-h3{
-    margin-right: 221px;
+    margin-right: 149px;
     margin-left: 80px;
 }
 
@@ -281,6 +278,7 @@ body{
     text-align: justify;
     width: 336px;
     margin-bottom: 56px;
+    margin-left: 72px;
 }
 
 .footer-final li{
