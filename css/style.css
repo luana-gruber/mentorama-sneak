@@ -11,17 +11,17 @@ ul{
 }
 
 body{
-    position: absolute;
     font:20px 'Gilroy', sans-serif;
+}
+
+.header {
+    width: 1600px;
 }
 
 .header h1{
     display: inline-block;
     font-size: 20px;
-    margin-left: 80px;
-    margin-top: 32px;
-    margin-bottom:32px;
-    margin-right: 352px;
+    margin: 32px 352px 32px 80px;
     line-height: 28px;
 }
 
@@ -37,6 +37,7 @@ body{
 }
 
 #li-geral{
+    display: inline-block;
     margin-left:42px;
 }
 
@@ -51,9 +52,11 @@ body{
     background-color:#F2F2F2;
     border: none;
     text-align: center;
-    margin-left: 128px;
-    margin-right: 24px;
+    margin: 0px 24px 0px 128px;
+    display: inline-block;
+
 }
+
 .header img, div{
     display: inline-block;
     vertical-align: middle;
@@ -63,6 +66,7 @@ body{
     display: inline-block;
     margin-top: 91px;
     margin-left: 80px;
+    margin-right: 166.84px;
 }
 
 .main-section-inicial h2{
@@ -83,8 +87,7 @@ body{
     width: 49%;
 }
 .main-section-inicial img{
-    margin-bottom: 220px;
-    margin-left: -166.84px;
+    margin-bottom: 200px;
 }
 
 .main-section-inicial button{
@@ -105,10 +108,8 @@ body{
     text-align: center;
     vertical-align: middle;
     border-radius: 8px;
-    margin-left: 80px;
-    width: 100%;
-    max-width: 1440px;
-    margin-bottom: 240px;
+    margin: 0px 0px 240px 80px;
+    width: 1440px;
 }
 
 .main-aside-inicial h2{
@@ -147,8 +148,7 @@ body{
 .main-section-textos{
     margin-left: 80px;
     margin-bottom: 160px;
-    width: 100%;
-    max-width: 1440px;
+    width: 1440px;
 }
 
 .main-section-textos div{
@@ -172,9 +172,6 @@ body{
     width: 581px;
     text-align: left;
     margin-right: 155px;
-}
-.div-amortecimento{
-    width: 90%;
 }
 
 .textos-amortecimento{
@@ -202,7 +199,6 @@ body{
 .div-form {
     display: inline-block;
     vertical-align: center;
-    width: 38%;
     position: absolute;
 }
 
@@ -217,7 +213,6 @@ body{
 .main-section-final h3{
     font-size: 40px;
     text-align: justify;
-    margin-left: 38px;
     margin-bottom: 40px;
 }
 
@@ -243,6 +238,7 @@ body{
     color:#969696;
 }
 #checkbox {
+    margin-top: 32px;
     display: inline-block;
     height: 28px;
     width: 28px;
@@ -253,8 +249,8 @@ body{
     font-size: 20px;
     width: 517px;
     height: 84px;
-    margin-top: 34px;
     margin-bottom: 48px;
+    margin-top: 32px;
     border: 2px solid #1F1F1F;
     font: 20px 'Gilroy', sans-serif;
     font-weight: 700;
