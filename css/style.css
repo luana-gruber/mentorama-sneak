@@ -32,11 +32,11 @@ header{
     font-weight: 500;
 }
 
-#li-feminino{
+.li-feminino{
     margin-left:32px;
 }
 
-#li-geral{
+.li-geral{
     margin-left:42px;
 }
 
@@ -56,6 +56,12 @@ header{
 }
 
 .header img, div{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.header img{
     display: inline-block;
     vertical-align: middle;
 }
@@ -269,7 +275,7 @@ header{
     font-weight: 500;
 }
 
-#footer-h3{
+.footer-h3{
     margin-right: 149px;
     margin-left: 80px;
 }
