@@ -45,7 +45,7 @@ header{
     font-size: 20px;
     border-radius: 50px;
     line-height: 28px;
-    background-image: url("../img/lupa.png");
+    background-image: url("../img/lupa.svg");
     background-repeat: no-repeat;
     background-position: 5%;
     background-color:#F2F2F2;
@@ -183,7 +183,7 @@ header{
 }
 
 .main-aside-corra{
-    background-image: url("../img/corra.png");
+    background-image: url("../img/corra.jpg");
     width: 1600px;
     height: 720px;
     margin-top: 200px;
