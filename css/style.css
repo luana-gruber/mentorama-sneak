@@ -14,67 +14,69 @@ body{
     font:20px 'Gilroy', sans-serif;
 }
 
-header{
+.container{
+  margin-left: 80px;
+
+}
+
+.container-flex{
+    display: flex;
+}
+
+.container-flex-spaced{
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
     width: 1600px;
+    padding: 18px 0 ;
 }
 
-.header h1{
-    display: inline-block;
+.header-title{
     font-size: 20px;
-    margin: 32px 352px 32px 80px;
     line-height: 28px;
+    margin-right: 164px;
 }
 
-.header nav, ul, li, a{
-    display: inline-block;
-    text-decoration: none;
+.header-items {
+    margin: 0 21px;
+    display: inline-flex;
     line-height: 28px;
+} 
+
+.header-items a{
+    text-decoration: none;
     font-weight: 500;
 }
 
-.li-feminino{
-    margin-left:32px;
-}
-
-.li-geral{
-    margin-left:42px;
-}
-
-.header input{
+.header-search{
     height: 52px;
-    font-size: 20px;
+    width: 235px;
+    font: 20px 'Gilroy';
     border-radius: 50px;
-    line-height: 28px;
     background-image: url("../img/lupa.svg");
     background-repeat: no-repeat;
-    background-position: 5%;
+    background-position: 17px 17px;
     background-color:#F2F2F2;
     border: none;
-    text-align: center;
-    margin: 0px 24px 0px 128px;
-
+    padding-left: 48px;
+    margin-right: 24px;
 }
 
-.header img, div{
-    display: inline-block;
+.header-cart{
+    display: inline-flex;
     vertical-align: middle;
-    
+    padding-right: 72px;
 }
 
-.header img{
-    display: inline-block;
-    vertical-align: middle;
-}
 .main-section-inicial{
-    display: inline-block;
     margin-top: 91px;
-    margin-left: 80px;
-
 }
 
-.main-section-inicial h2{
+.section-title{
     font-size:104px;
     line-height: 104px;
+    width: 521px;
     color: #9F9F9F;
     margin-bottom: 24px;
 }
@@ -85,13 +87,8 @@ header{
     line-height: 28px;
 }
 
-.main-section-inicial div{
-    display: inline-block;
-    width: 49%;
-}
 .main-section-inicial img{
     margin-bottom: 200px;
-    margin-left: -90px;
 }
 
 .main-section-inicial button{
@@ -112,9 +109,11 @@ header{
     text-align: center;
     vertical-align: middle;
     border-radius: 8px;
-    margin: 0px 0px 240px 80px;
-    width: 1440px;
+    margin: 0px 0px 240px 0px;
+    padding: 0px  488px;
+    width: 100%;
 }
+
 
 .main-aside-inicial h2{
     font-size: 40px;
@@ -122,14 +121,10 @@ header{
     padding-top: 64px;
 }
 
-.main-aside-inicial li{
-    margin-bottom:32px;
-    margin-top: 64px;
-    margin-left: 20px;
-}
+.aside-items{
+    display: inline-flex;
+    margin: 64px 0px 32px 20px;
 
-.main-aside-inicial div{
-    display: block;
 }
 
 .main-aside-inicial span{
