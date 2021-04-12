@@ -15,7 +15,9 @@ body{
 }
 
 .container{
-  margin-left: 80px;
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
 
 }
 
@@ -27,15 +29,17 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
 .header{
     width: 1600px;
-    padding: 18px 0 ;
+    padding: 18px 0px ;
+    align-items: center;
 }
 
 .header-title{
     font-size: 20px;
     line-height: 28px;
-    margin-right: 164px;
+    margin-right: 240px; 
 }
 
 .header-items {
@@ -47,6 +51,7 @@ body{
 .header-items a{
     text-decoration: none;
     font-weight: 500;
+    color: #1F1F1F;
 }
 
 .header-search{
@@ -65,12 +70,12 @@ body{
 
 .header-cart{
     display: inline-flex;
-    vertical-align: middle;
-    padding-right: 72px;
 }
 
 .main-section-inicial{
     margin-top: 91px;
+    margin-left: 80px;
+    display: inline-flex;
 }
 
 .section-title{
@@ -107,24 +112,19 @@ body{
 .main-aside-inicial{
     background: #F3F3F3;
     text-align: center;
-    vertical-align: middle;
     border-radius: 8px;
-    margin: 0px 0px 240px 0px;
-    padding: 0px  488px;
-    width: 100%;
+    width: 1440px;
+    margin: 0px 0px 240px 80px;
 }
-
 
 .main-aside-inicial h2{
     font-size: 40px;
-    font-weight: 700;
     padding-top: 64px;
 }
 
 .aside-items{
     display: inline-flex;
     margin: 64px 0px 32px 20px;
-
 }
 
 .main-aside-inicial span{
@@ -151,10 +151,7 @@ body{
 }
 
 .main-section-textos div{
-    display: inline-block;
-    width: 49%;
-    text-align: center;
-    vertical-align: top;
+    text-align: center; 
 }
 
 .main-section-textos h2{
@@ -170,7 +167,6 @@ body{
     line-height: 28px;
     width: 581px;
     text-align: left;
-    margin-right: 155px;
 }
 
 .textos-amortecimento{
@@ -294,4 +290,4 @@ body{
 .footer-div-redes h3{
     display:block;
     text-align: justify;
-}
+} 
