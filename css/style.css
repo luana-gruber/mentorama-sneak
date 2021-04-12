@@ -18,7 +18,6 @@ body{
   width: 1440px;
   max-width: 100%;
   margin: 0 auto;
-
 }
 
 .container-flex{
@@ -78,7 +77,7 @@ body{
     display: inline-flex;
 }
 
-.section-title{
+.main-section1-title{
     font-size:104px;
     line-height: 104px;
     width: 521px;
@@ -86,17 +85,17 @@ body{
     margin-bottom: 24px;
 }
 
-.main-section-inicial p{
+.main-section1-text{
     width: 100%;
     max-width: 475px;
     line-height: 28px;
 }
 
-.main-section-inicial img{
+.main-section1-tenis{
     margin-bottom: 200px;
 }
 
-.main-section-inicial button{
+.main-section1-button{
     margin-top: 108px;
     margin-bottom: 262px;
     border-radius: 12px;
@@ -117,7 +116,7 @@ body{
     margin: 0px 0px 240px 80px;
 }
 
-.main-aside-inicial h2{
+.main-aside1-title{
     font-size: 40px;
     padding-top: 64px;
 }
@@ -127,14 +126,14 @@ body{
     margin: 64px 0px 32px 20px;
 }
 
-.main-aside-inicial span{
+.main-aside1-text{
     display: block;
     margin-bottom:64px;
     margin-top: 45.62px;
     font-weight: 700;
     line-height: 28px;
 }
-.main-aside-inicial button{
+.main-aside1-button{
     border-radius: 12px;
     font:20px 'Gilroy', sans-serif;
     font-weight: 700;
@@ -142,6 +141,11 @@ body{
     height: 84px;
     border: 2px solid #1F1F1F;
     margin-bottom: 64px;
+}
+
+.container-flex-textos{
+    justify-content: space-between;
+    align-items: initial;
 }
 
 .main-section-textos{
@@ -154,7 +158,7 @@ body{
     text-align: center; 
 }
 
-.main-section-textos h2{
+.main-section2-title{
     font-size: 64px;
     font-weight: 700;
     color: #9F9F9F;
@@ -256,6 +260,7 @@ body{
     margin-top: 160px;
     width: 1600px;
 }
+
 .footer-final h3{
     margin-top: 56px;
     margin-bottom: 18px;
@@ -264,6 +269,11 @@ body{
     text-align: justify;
     line-height: 28px;
     font-weight: 500;
+}
+
+.footer-final a{
+    text-decoration: none;
+    color: #1F1F1F;
 }
 
 .footer-h3{
@@ -276,18 +286,16 @@ body{
     width: 336px;
     margin-bottom: 56px;
     margin-left: 72px;
-}
-
-.footer-final li{
-    display:block;
+    display: inline-block;
 }
 
 .footer-div-redes{
     vertical-align: top;
     text-align: center;
+    display: inline-block;
 }
 
 .footer-div-redes h3{
-    display:block;
+    display: block;
     text-align: justify;
 } 
