@@ -123,6 +123,7 @@ body{
 
 .aside-items{
     display: inline-flex;
+    cursor: pointer;
     margin: 64px 0px 32px 20px;
 }
 
@@ -184,8 +185,15 @@ body{
     margin-top: 200px;
     font-size: 70px;
     line-height: 104px;
+    padding-top: 16px;
+    padding-left: 24px;
     color: white;
 }
+
+.main-aside-corra img{
+    margin-bottom: 20px;
+}
+
 .main-section-final {
     margin-top: 200px;
     margin-left: 80px;
@@ -268,6 +276,7 @@ body{
     vertical-align: top;
     text-align: justify;
     line-height: 28px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -284,7 +293,7 @@ body{
 .footer-final ul{
     text-align: justify;
     width: 336px;
-    margin-bottom: 56px;
+    margin-bottom: 80px;
     margin-left: 72px;
     display: inline-block;
 }
@@ -299,3 +308,18 @@ body{
     display: block;
     text-align: justify;
 } 
+
+.footer-div-redes img{
+    margin-right: 26px;
+} 
+
+.footer-mentorama {
+    padding-bottom: 24px;
+}
+
+.footer-mentorama span{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 650px;
+    margin-right: 8px;
+}
